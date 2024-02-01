@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: rubikbubbles;
+    src: url(RubikBubbles-Regular.ttf);
+    padding: 10px;
+}
+@font-face{
+    font-family: alegreya;
+    src: url(static/Alegreya-Regular.ttf);
+    padding: 2rem;
+}
+@font-face{
+    font-family: alegreya1;
+    src: url(static/Alegreya-BoldItalic.ttf);
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.caja1 {
+    width: 33.33%;
+    height: 5rem;
+    background-color: red;  
+    border: 1px solid whitesmoke;
+}
+.caja2 {
+    width: 33.33%;
+    height: 5rem;
+    background-color: red;  
+    border: 1px solid whitesmoke;
+  }
+.caja3 {
+    width: 33.33%;
+    height: 5rem;
+    background-color: red;  
+    border: 1px solid whitesmoke;
+}
+.caja4 {
+    width: 100%;
+    height: 400px;
+    background-image: url(fondo.jpeg);
+    background-color: white;
+    border: 1px solid whitesmoke;
+}
+.caja5 {
+    width: 33.33%;
+    height: 400px;
+    background-image: url(verde.avif);
+    background-color: green;  
+    border: 1px solid whitesmoke;
+    font-size: 28px; padding: 1rem;
+    text-align: center;
+}
+.caja6 {
+    width: 33.33%;
+    height: 400px;
+    background-image: url(verde.avif);
+    background-color: green;  
+    border: 1px solid whitesmoke;
+    font-size: 28px; padding: 1rem;
+}
+.caja7 {
+    width: 33.33%;
+    height: 400px;
+    background-image: url(verde.avif);
+    background-color: green;  
+    border: 1px solid whitesmoke;
+    font-size: 28px; padding: 1rem;
+}
+.caja8 {
+    width: 20%;
+    height: 400px;
+    background-image: url(fondocirculo.png);
+    background-color: violet;  
+    border: 1px solid whitesmoke;
+    border-radius: 60%;
+}
+.caja9 {
+    width: 20%;
+    height: 400px;
+    background-image: url(fondocirculo.png);
+    background-color: violet;  
+    border: 1px solid whitesmoke;
+    border-radius: 60%;
+}
+.caja10 {
+    width: 20%;
+    height: 400px;
+    background-image: url(fondocirculo.png);
+    background-color: violet;  
+    border: 1px solid whitesmoke;
+    border-radius: 60%;
+}
+.caja11 {
+    width: 20%;
+    height: 400px;
+    background-image: url(fondocirculo.png);
+    background-color: violet;  
+    border: 1px solid whitesmoke;
+    border-radius: 60%;
+}
+.caja12 {
+    width: 20%;
+    height: 400px;
+    background-image: url(fondocirculo.png);
+    background-color: violet;  
+    border: 1px solid whitesmoke;
+    border-radius: 60%;
+}
+.caja13 {
+    width: 100%;
+    height: 410px;
+    background-color: chartreuse;  
+    border: 1px solid whitesmoke;
+    font-size: 28px; padding: 1rem;
+}
